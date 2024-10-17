@@ -46,6 +46,11 @@
 
 ---
 
+## <a href="../Models/Transformer/7tis_indobert_transformer.html">Interactive Plot</a>
+<img src="../Models/Transformer/7tis_indobert_transformer.png" alt="transformer" width="800"/>
+
+---
+
 ## 7 TIs + IndoBERT W BiLSTM
 ### Trial 00 Summary
 
@@ -82,6 +87,11 @@
 - **MAE:** 138.5850  
 - **RMSE:** 173.3311  
 - **MAPE:** 1.4417%  
+
+---
+
+## <a href="../Models/BiLSTM/7tis_indobert_bilstm.html">Interactive Plot</a>
+<img src="../Models/BiLSTM/7tis_indobert_bilstm.png" alt="bilstm" width="800"/>
 
 ---
 
@@ -124,6 +134,11 @@
 
 ---
 
+## <a href="../Models/LSTM/7tis_indobert_lstm.html">Interactive Plot</a>
+<img src="../Models/LSTM/7tis_indobert_lstm.png" alt="lstm" width="800"/>
+
+---
+
 ## 7 TIs + IndoBERT W GRU
 ### Trial 20 Summary
 
@@ -163,6 +178,11 @@
 
 ---
 
+## <a href="../Models/GRU/7tis_indobert_gru.html">Interactive Plot</a>
+<img src="../Models/GRU/7tis_indobert_gru.png" alt="gru" width="800"/>
+
+---
+
 ## Univariate w GRU
 ### Trial 03 Summary
 
@@ -199,5 +219,10 @@
 - **MAE:** 97.5444  
 - **RMSE:** 125.6749  
 - **MAPE:** 1.0246%  
+
+---
+
+## <a href="../Models/Univariate GRU/univariate_gru.html">Interactive Plot</a>
+<img src="../Models/Univariate GRU/univariate_gru.png" alt="transformer" width="800"/>
 
 ---
