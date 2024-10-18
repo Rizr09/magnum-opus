@@ -62,7 +62,7 @@ Summary:
 ---
 
 ## <a href="https://7tis-indobert-transformer-rizr09.netlify.app/" target='_blank'>Interactive Plot</a>
-<img src="../Models/Transformer/7tis_indobert_transformer.png" alt="transformer" width="800"/>
+<img src="https://i.ibb.co.com/s1pzBqX/7tis-indobert-transformer.png" alt="transformer" width="800"/>
 
 ---
 
@@ -106,7 +106,7 @@ Summary:
 ---
 
 ## <a href="https://7tis-indobert-bilstm-rizr09.netlify.app/" target='_blank'>Interactive Plot</a>
-<img src="../Models/BiLSTM/7tis_indobert_bilstm.png" alt="bilstm" width="800"/>
+<img src="https://i.ibb.co.com/FWBmGW0/7tis-indobert-bilstm.png" alt="bilstm" width="800"/>
 
 ---
 
@@ -150,7 +150,7 @@ Summary:
 ---
 
 ## <a href="https://7tis-indobert-lstm-rizr09.netlify.app/" target='_blank'>Interactive Plot</a>
-<img src="../Models/LSTM/7tis_indobert_lstm.png" alt="lstm" width="800"/>
+<img src="https://i.ibb.co.com/3Rbh1Bt/7tis-indobert-lstm.png" alt="lstm" width="800"/>
 
 ---
 
@@ -195,7 +195,7 @@ Summary:
 ---
 
 ## <a href="https://7tis-indobert-gru-rizr09.netlify.app/" target='_blank'>Interactive Plot</a>
-<img src="../Models/GRU/7tis_indobert_gru.png" alt="gru" width="800"/>
+<img src="https://i.ibb.co.com/dJXLvpf/7tis-indobert-gru.png" alt="gru" width="800"/>
 
 ---
 
@@ -239,6 +239,6 @@ Summary:
 ---
 
 ## <a href="https://univariate-gru-rizr09.netlify.app/" target="_blank">Interactive Plot</a>
-<img src="../Models/Univariate GRU/univariate_gru.png" alt="transformer" width="800"/>
+<img src="https://i.ibb.co.com/Ss0XJpM/univariate-gru.png" alt="univariate" width="800"/>
 
 ---
