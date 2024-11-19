@@ -1,4 +1,4 @@
-# Perbandingan Performa BiLSTM (MAE, MSE, RMSE, MAPE) 
+# Perbandingan Performa Arsitektur (MAE, MSE, RMSE, MAPE) 
 **Running Trial:** 25  
 **Code:** https://www.kaggle.com/code/rizr09/final-skripsi  
 Summary:
@@ -111,16 +111,16 @@ Summary:
 ---
 
 ## 7 TIs + IndoBERT W LSTM
-### Trial 08 Summary
+### Trial 02 Summary
 
 **Hyperparameters:**
-- `units_1`: 128  
-- `dropout_1`: 0.35  
-- `units_2`: 320  
-- `dropout_2`: 0.3  
-- `units_3`: 448  
+- `units_1`: 192  
+- `dropout_1`: 0.15  
+- `units_2`: 352  
+- `dropout_2`: 0.25  
+- `units_3`: 160  
 
-**Score:** 0.00039979560824576765  
+**Score:** 0.0004227323515806347  
 
 ---
 
@@ -128,43 +128,43 @@ Summary:
 
 | Layer (type)          | Output Shape    | Param #   |
 | --------------------- | --------------- | --------- |
-| `lstm (LSTM)`         | (None, 14, 128) | 71,680    |
-| `dropout (Dropout)`   | (None, 14, 128) | 0         |
-| `lstm_1 (LSTM)`       | (None, 14, 320) | 574,720   |
-| `dropout_1 (Dropout)` | (None, 14, 320) | 0         |
-| `lstm_2 (LSTM)`       | (None, 448)     | 1,378,048 |
-| `dense (Dense)`       | (None, 1)       | 449       |
+| `lstm (LSTM)`         | (None, 7, 192)  | 156,672   |
+| `dropout (Dropout)`   | (None, 7, 192)  | 0         |
+| `lstm_1 (LSTM)`       | (None, 7, 352)  | 767,360   |
+| `dropout_1 (Dropout)` | (None, 7, 352)  | 0         |
+| `lstm_2 (LSTM)`       | (None, 160)     | 328,320   |
+| `dense (Dense)`       | (None, 1)       | 161       |
 
-**Total params:** 2,024,897 (7.72 MB)  
-**Trainable params:** 2,024,897 (7.72 MB)  
+**Total params:** 1,252,513 (4.78 MB)  
+**Trainable params:** 1,252,513 (4.78 MB)  
 **Non-trainable params:** 0 (0.00 B)  
 
 ---
 
 **Metrics:**
-- **MSE:** 34293.0025  
-- **MAE:** 147.4623  
-- **RMSE:** 185.1837  
-- **MAPE:** 1.5522%  
+- **MSE:** 27881.8012  
+- **MAE:** 130.5241  
+- **RMSE:** 166.9784  
+- **MAPE:** 1.3730%  
 
 ---
 
-## <a href="https://7tis-indobert-lstm-rizr09.netlify.app/" target='_blank'>Interactive Plot</a>
-<img src="https://i.ibb.co.com/3Rbh1Bt/7tis-indobert-lstm.png" alt="lstm" width="800"/>
+## <a href="" target='_blank'>Interactive Plot</a>
+<img src="" alt="lstm" width="800"/>
 
 ---
 
 ## 7 TIs + IndoBERT W GRU
-### Trial 0 Summary
+### Trial 00 Summary
 
 **Hyperparameters:**
-- `units_1`: 512
-- `dropout_1`: 0.15
-- `units_2`: 256
-- `dropout_2`: 0.30
-- `units_3`: 512
+- `units_1`: 224  
+- `dropout_1`: 0.1  
+- `units_2`: 352  
+- `dropout_2`: 0.2  
+- `units_3`: 480  
 
-**Score:** 0.0002464966382831335
+**Score:** 0.0002544312155805528  
 
 ---
 
@@ -172,30 +172,29 @@ Summary:
 
 | Layer (type)          | Output Shape    | Param #   |
 | --------------------- | --------------- | --------- |
-| `gru (GRU)`           | (None, 14, 512) | 806,400   |
-| `dropout (Dropout)`   | (None, 14, 512) | 0         |
-| `gru_1 (GRU)`         | (None, 14, 256) | 591,360   |
-| `dropout_1 (Dropout)` | (None, 14, 256) | 0         |
-| `gru_2 (GRU)`         | (None, 512)     | 1,182,720 |
-| `dense (Dense)`       | (None, 1)       | 513       |
+| `gru (GRU)`           | (None, 7, 224)  | 159,264   |
+| `dropout (Dropout)`   | (None, 7, 224)  | 0         |
+| `gru_1 (GRU)`         | (None, 7, 352)  | 610,368   |
+| `dropout_1 (Dropout)` | (None, 7, 352)  | 0         |
+| `gru_2 (GRU)`         | (None, 480)     | 1,200,960 |
+| `dense (Dense)`       | (None, 1)       | 481       |
 
-**Total params:** 2,580,993 (9.85 MB)  
-**Trainable params:** 2,580,993 (9.85 MB)  
+**Total params:** 1,971,073 (7.52 MB)  
+**Trainable params:** 1,971,073 (7.52 MB)  
 **Non-trainable params:** 0 (0.00 B)  
 
 ---
 
 **Metrics:**
-- **MSE:** 23810.6023  
-- **MAE:** 119.7513  
-- **RMSE:** 154.3068  
-- **MAPE:** 1.2511%
-
+- **MSE:** 20916.0500  
+- **MAE:** 112.1201  
+- **RMSE:** 144.6238  
+- **MAPE:** 1.1786%  
 
 ---
 
-## <a href="https://7tis-indobert-gru-rizr09.netlify.app/" target='_blank'>Interactive Plot</a>
-<img src="https://i.ibb.co.com/dJXLvpf/7tis-indobert-gru.png" alt="gru" width="800"/>
+## <a href="" target='_blank'>Interactive Plot</a>
+<img src="" alt="gru" width="800"/>
 
 ---
 

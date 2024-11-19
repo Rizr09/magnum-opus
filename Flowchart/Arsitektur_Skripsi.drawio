@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6">
+  <diagram id="_qP4K68kMuX402xmcLq8" name="Page-1">
+    <mxGraphModel dx="415" dy="219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TtU02FTsdyyG5YefNE9X-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-8" target="TtU02FTsdyyG5YefNE9X-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-8" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="92.5" y="36.67" width="140" height="93.33" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-9" target="TtU02FTsdyyG5YefNE9X-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-9" value="&amp;nbsp; &amp;nbsp;&lt;i&gt;Input&amp;nbsp;&lt;/i&gt;kata kunci&amp;nbsp;berita&amp;nbsp;&lt;div&gt;dengan keyword &quot;&quot;IHSG&quot;&amp;nbsp;&lt;div&gt;OR &quot;The Fed&quot;&quot; serta&amp;nbsp;&lt;/div&gt;&lt;div&gt;rentang tanggal&amp;nbsp;&lt;/div&gt;&lt;div&gt;pengumpulan berita&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="180" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-12" target="TtU02FTsdyyG5YefNE9X-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-12" value="&lt;i&gt;Crawling &lt;/i&gt;berita dari situs CNN, Tribun, CNBC, dan Kompas lalu disimpan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="330" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LXYCTwJGJKqXCq0q85iN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="TtU02FTsdyyG5YefNE9X-13" target="TtU02FTsdyyG5YefNE9X-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="600" />
+              <mxPoint x="290" y="600" />
+              <mxPoint x="290" y="50" />
+              <mxPoint x="533" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-13" value="Berita yang telah disimpan lalu di-&lt;i&gt;preprocessing &lt;/i&gt;hingga bersih" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="490" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-15" target="TtU02FTsdyyG5YefNE9X-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-15" value="Pengklasifikasian judul berita menggunakan metode InSet Lexicon" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="260" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-17" target="TtU02FTsdyyG5YefNE9X-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-17" value="Pembentukan dan peramalan sentimen pasar menggunakan arsitektur IndoBERT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="260" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-19" target="TtU02FTsdyyG5YefNE9X-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="532" y="660" />
+              <mxPoint x="162" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-19" value="Pemilihan model terbaik berdasarkan akurasi" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="490" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-24" target="TtU02FTsdyyG5YefNE9X-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-24" value="Alih bahasa dataset sentimen berita finansial (Malo &lt;i&gt;et al&lt;/i&gt;., 2014) ke Bahasa Indonesia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="70" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-28" target="TtU02FTsdyyG5YefNE9X-30" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-28" value="&amp;nbsp; &amp;nbsp;&lt;i&gt;Input&amp;nbsp;&lt;/i&gt;rentang tanggal pengumpulan data OCHLV&lt;div&gt;dari emiten BBCA&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="680" width="185" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-30" target="TtU02FTsdyyG5YefNE9X-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-30" value="Kalkulasi indikator-indikator teknikal yang akan digunakan" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="680" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-32" target="TtU02FTsdyyG5YefNE9X-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-32" value="Kalkulasi rata-rata skor&amp;nbsp;&lt;div&gt;sentimen pasar&amp;nbsp;&lt;div&gt;berdasarkan tanggal&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="680" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hAO0ZCHsk4SDBFkO57jN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-34" target="TtU02FTsdyyG5YefNE9X-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hAO0ZCHsk4SDBFkO57jN-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-34" target="TtU02FTsdyyG5YefNE9X-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="162" y="960" />
+              <mxPoint x="530" y="960" />
+              <mxPoint x="530" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-34" value="Apakah ada&amp;nbsp;&lt;div&gt;tanggal dengan skor&amp;nbsp;&lt;/div&gt;&lt;div&gt;sentimennya&lt;/div&gt;&lt;div&gt;kosong?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="820" width="184.85" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-37" target="TtU02FTsdyyG5YefNE9X-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="880" />
+              <mxPoint x="510" y="815" />
+              <mxPoint x="652" y="815" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-37" value="Imputasi menggunakan K-Nearest Neighbors" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="835" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-39" value="Tidak" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="172.5" y="930" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-40" target="TtU02FTsdyyG5YefNE9X-50" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-40" target="TtU02FTsdyyG5YefNE9X-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-40" target="TtU02FTsdyyG5YefNE9X-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-40" target="TtU02FTsdyyG5YefNE9X-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-40" target="TtU02FTsdyyG5YefNE9X-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-40" value="Pembentukan dataset final yang mencakup data penutupan saham, indikator teknikal, dan sentimen pasar setiap harinya" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="835" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-42" value="Ya" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="245" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-50" target="TtU02FTsdyyG5YefNE9X-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-50" value="Perancangan dan peramalan harga saham menggunakan arsitektur &lt;i&gt;multivariate Transformer&lt;/i&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1040" width="146.67" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-51" target="TtU02FTsdyyG5YefNE9X-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-51" value="Perancangan&amp;nbsp;dan peramalan harga saham menggunakan arsitektur &lt;i&gt;multivariate&amp;nbsp;&lt;/i&gt;&lt;div&gt;&lt;i&gt;Bidirectional &lt;/i&gt;LSTM&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1040" width="146.67" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-52" target="TtU02FTsdyyG5YefNE9X-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-52" value="Perancangan&amp;nbsp;dan peramalan harga saham menggunakan arsitektur&amp;nbsp;&lt;i&gt;multivariate&amp;nbsp;&lt;/i&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;LSTM&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1040" width="146.67" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-53" target="TtU02FTsdyyG5YefNE9X-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-53" value="Perancangan&amp;nbsp;dan peramalan harga saham menggunakan arsitektur &lt;i&gt;multivariate&amp;nbsp;&lt;/i&gt;GRU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="525" y="1040" width="146.67" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-54" target="TtU02FTsdyyG5YefNE9X-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-54" value="Perancangan&amp;nbsp;dan peramalan harga saham menggunakan arsitektur &lt;i&gt;univariate &lt;/i&gt;GRU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="1040" width="146.67" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-67" target="TtU02FTsdyyG5YefNE9X-74" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-67" value="Perhitungan akurasi masing-masing model menggunakan RMSE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30.829999999999984" y="1180" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-74" target="TtU02FTsdyyG5YefNE9X-76" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-74" value="Pemilihan model terbaik berdasarkan nilai RMSE&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;terkecil&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="254.85" y="1180" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TtU02FTsdyyG5YefNE9X-76" target="TtU02FTsdyyG5YefNE9X-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-76" value="Visualisasi data lampau dan proyeksi harga&amp;nbsp;&lt;div&gt;penutupan saham&amp;nbsp;&lt;/div&gt;&lt;div&gt;BBCA 21 hari kedepan menggunakan model terbaik&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="1180" width="165" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TtU02FTsdyyG5YefNE9X-81" value="Finish" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="693.33" y="1178.3300000000002" width="140" height="93.33" as="geometry" />
+        </mxCell>
+        <mxCell id="JmqTqqaQD6Qh_bG2oq-G-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" target="TtU02FTsdyyG5YefNE9X-15" edge="1" source="TtU02FTsdyyG5YefNE9X-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="40" as="sourcePoint" />
+            <mxPoint x="510" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
