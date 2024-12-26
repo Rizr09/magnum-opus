@@ -23,7 +23,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Judul Website
-st.title("📈 Performa Model dalam Peramalan Harga Saham")
+st.title("📈 Performa Model dalam Peramalan Harga Saham Berdasarkan Indikator Teknikal dan Sentimen Pasar")
 
 # Deskripsi dalam card
 st.markdown("""
@@ -31,7 +31,7 @@ st.markdown("""
     <h4 style='color: #1E3A8A;'>Informasi Dataset:</h4>
     • Peramalan fokus pada harga penutupan saham BBCA<br>
     • Sentimen pasar dari judul berita IHSG dan The Fed<br>
-    • Data sentimen menggunakan dataset FSA (Bahasa Indonesia)<br>
+    • Data sentimen dilatih menggunakan dataset FSA<br>
     • Periode: 2 Januari 2020 - 26 September 2024<br>
     • Model: Transformer, BiLSTM, LSTM, dan GRU dengan TensorFlow
 </div>
