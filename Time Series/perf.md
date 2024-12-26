@@ -22,14 +22,14 @@ Summary:
 
 **Hyperparameters:**
 - `num_transformer_blocks`: 4  
-- `num_heads`: 5  
-- `ff_dim`: 64  
-- `dropout_rate`: 0.2  
-- `num_dense_layers`: 1  
+- `num_heads`: 7  
+- `ff_dim`: 384  
+- `dropout_rate`: 0.1  
+- `num_dense_layers`: 2  
 - `dense_units`: 192  
 - `dense_dropout`: 0.2  
 
-**Score:** 0.0006428841006709263  
+**Score:** 0.004958058707416058  
 
 ---
 
@@ -37,27 +37,29 @@ Summary:
 
 | Layer (type)               | Output Shape   | Param # |
 | -------------------------- | -------------- | ------- |
-| `input_layer (InputLayer)` | (None, 14, 11) | 0       |
-| `transformer_block`        | (None, 14, 11) | 4,123   |
-| `transformer_block_1`      | (None, 14, 11) | 4,123   |
-| `transformer_block_2`      | (None, 14, 11) | 4,123   |
-| `transformer_block_3`      | (None, 14, 11) | 4,123   |
+| `input_layer (InputLayer)` | (None, 7, 11)  | 0       |
+| `transformer_block`        | (None, 7, 11)  | 12,517  |
+| `transformer_block_1`      | (None, 7, 11)  | 12,517  |
+| `transformer_block_2`      | (None, 7, 11)  | 12,517  |
+| `transformer_block_3`      | (None, 7, 11)  | 12,517  |
 | `global_average_pooling1d` | (None, 11)     | 0       |
 | `dense_8 (Dense)`          | (None, 192)    | 2,304   |
 | `dropout_12 (Dropout)`     | (None, 192)    | 0       |
-| `dense_9 (Dense)`          | (None, 1)      | 193     |
+| `dense_9 (Dense)`          | (None, 192)    | 37,056  |
+| `dropout_13 (Dropout)`     | (None, 192)    | 0       |
+| `dense_10 (Dense)`         | (None, 1)      | 193     |
 
-**Total params:** 18,989 (74.18 KB)  
-**Trainable params:** 18,989 (74.18 KB)  
+**Total params:** 89,621 (350.08 KB)  
+**Trainable params:** 89,621 (350.08 KB)  
 **Non-trainable params:** 0 (0.00 B)  
 
 ---
 
 **Metrics:**
-- **MSE:** 343749.3602  
-- **MAE:** 452.8305  
-- **RMSE:** 586.3014  
-- **MAPE:** 4.5636%  
+- **MSE:** 587,320.9626  
+- **MAE:** 640.0942  
+- **RMSE:** 766.3687  
+- **MAPE:** 6.5247%  
 
 ---
 
@@ -197,6 +199,51 @@ Summary:
 <img src="" alt="gru" width="800"/>
 
 ---
+
+## Univariate w LSTM  
+### Trial 24 Summary  
+
+**Hyperparameters:**  
+- `units_1`: 416  
+- `dropout_1`: 0.45  
+- `units_2`: 320  
+- `dropout_2`: 0.35  
+- `units_3`: 224  
+
+**Score:** 0.0004411909612827003  
+
+---
+
+### Model: "sequential"
+
+| Layer (type)          | Output Shape    | Param #   |
+| --------------------- | --------------- | --------- |
+| `lstm (LSTM)`         | (None, 14, 416) | 695,552   |
+| `dropout (Dropout)`   | (None, 14, 416) | 0         |
+| `lstm_1 (LSTM)`       | (None, 14, 320) | 943,360   |
+| `dropout_1 (Dropout)` | (None, 14, 320) | 0         |
+| `lstm_2 (LSTM)`       | (None, 224)     | 488,320   |
+| `dense (Dense)`       | (None, 1)       | 225       |
+
+**Total params:** 2,127,457 (8.12 MB)  
+**Trainable params:** 2,127,457 (8.12 MB)  
+**Non-trainable params:** 0 (0.00 B)  
+
+---
+
+**Metrics:**  
+- **MSE:** 25750.4648  
+- **MAE:** 126.9801  
+- **RMSE:** 160.4695  
+- **MAPE:** 1.3354%  
+
+---
+
+## <a href="https://univariate-lstm-rizr09.netlify.app/" target="_blank">Interactive Plot</a>  
+<img src="" alt="univariate" width="800"/>  
+
+---
+
 
 ## Univariate w GRU
 ### Trial 03 Summary
