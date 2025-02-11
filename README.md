@@ -1,6 +1,5 @@
 # Integrasi Analisis Sentimen Pasar dan Indikator Teknikal pada Peramalan Harga Saham di Indonesia Berbasis Deep Learning
 By Rizky Ramadhan S - 140810210004  
-https://skripsi-rizr09.streamlit.app/
 
 ## **Tahapan Keseluruhan**
 
@@ -27,9 +26,10 @@ https://skripsi-rizr09.streamlit.app/
 - Membuat indikator teknikal menggunakan **TA-Lib**
   - Script terkait: `Tugas Akhir\Time Series\generate_technical_indicator.py`
 - Memilih 7 indikator teknikal berdasarkan studi empiris:
-  1. Sim, H. S., Kim, H. I., & Ahn, J. J. (2019). [Is deep learning for image recognition applicable to stock market prediction?](https://doi.org/10.1155/2019/4324878)
-  2. Tan, X., Li, S., Wang, C., & Wang, S. (2020). [Enhancing High Frequency Technical Indicators Forecasting Using Shrinking Deep Neural Networks](https://doi.org/10.1109/icim49319.2020.244707)
-  3. 7 indikator terakhir didapat dari eksperimen.
+  1. Xu, Y., & Keselj V. (2019). [Stock Prediction Using Deep Learning and Sentiment Analysis](https://doi.org/10.1109/BigData47090.2019.9006342)
+  2. Sim, H. S., Kim, H. I., & Ahn, J. J. (2019). [Is Deep Learning for Image Recognition Applicable to Stock Market Prediction?](https://doi.org/10.1155/2019/4324878)
+  3. Tan, X., Li, S., Wang, C., & Wang, S. (2020). [Enhancing High Frequency Technical Indicators Forecasting Using Shrinking Deep Neural Networks](https://doi.org/10.1109/icim49319.2020.244707)
+  4. 7 indikator terakhir didapat dari eksperimen.
 
 ---
 
