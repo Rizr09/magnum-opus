@@ -1,5 +1,6 @@
 # Integrasi Analisis Sentimen Pasar dan Indikator Teknikal pada Peramalan Harga Saham di Indonesia Berbasis Deep Learning
-By Rizky Ramadhan S - 140810210004
+By Rizky Ramadhan S - 140810210004  
+https://skripsi-rizr09.streamlit.app/
 
 ## **Tahapan Keseluruhan**
 
